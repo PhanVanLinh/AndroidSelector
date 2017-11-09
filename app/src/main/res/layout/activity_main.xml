@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/background_selector"
+        android:clickable="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/aLinerLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_selector"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Linear Layout"
+            android:textColor="@drawable/text_selector"
+            android:textSize="40sp"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/aRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_selector"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Linear Layout"
+            android:textColor="@drawable/text_selector"
+            android:textSize="40sp"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_change_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change State"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Background Selector with alpha"
+        android:background="@drawable/background_selector_with_alpha"
+        android:clickable="true"
+        />
+
+</LinearLayout>
